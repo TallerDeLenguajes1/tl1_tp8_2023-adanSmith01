@@ -12,8 +12,8 @@ internal class Program
         string filtro = String.Empty;
 
         // Generando el numero N de forma aleatoria
-        int N = new Random().Next(2, 5);
-        cargarTareasPendientes(2, tareasPendientes);
+        int N = new Random().Next(2, 11);
+        cargarTareasPendientes(N, tareasPendientes);
         moverTareas(tareasPendientes, tareasRealizadas);
 
         Console.Write("\n¿Desea buscar alguna tarea pendiente? Si/No: ");
